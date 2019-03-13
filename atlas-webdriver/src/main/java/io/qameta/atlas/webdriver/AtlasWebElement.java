@@ -4,10 +4,14 @@ import io.qameta.atlas.core.api.Timeout;
 import io.qameta.atlas.webdriver.extension.ShouldMethodExtension;
 import io.qameta.atlas.webdriver.extension.WaitUntilMethodExtension;
 import org.hamcrest.Matcher;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.internal.Coordinates;
-import org.openqa.selenium.interactions.internal.Locatable;
-import org.openqa.selenium.internal.WrapsElement;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.Rectangle;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WrapsElement;
+import org.openqa.selenium.interactions.Coordinates;
+import org.openqa.selenium.interactions.Locatable;
 
 import java.util.List;
 
